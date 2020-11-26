@@ -41,41 +41,22 @@ h2 {
   flex-direction: column;
 }
 
-.score-section {
+.ticket-section {
   display: flex;
-  font-size: 24px;
   align-items: center;
 }
 
-/* QUESTION/TIMER/LEFT SECTION */
+/* QUESTION*/
 .question-section {
   width: 100%;
   position: relative;
-}
-
-.question-count {
-  margin-bottom: 20px;
-}
-
-.question-count span {
-  font-size: 28px;
 }
 
 .question-text {
   margin-bottom: 12px;
 }
 
-.timer-text {
-  background: rgb(230, 153, 12);
-  padding: 15px;
-  margin-top: 20px;
-  margin-right: 20px;
-  border: 5px solid rgb(255, 189, 67);
-  border-radius: 15px;
-  text-align: center;
-}
-
-/* ANSWERS/RIGHT SECTION */
+/* ANSWERS/ SECTION */
 .answer-section {
   width: 100%;
   display: flex;
@@ -98,14 +79,6 @@ button {
   cursor: pointer;
 }
 
-.correct {
-  background-color: #2f922f;
-}
-
-.incorrect {
-  background-color: #ff3333;
-}
-
 button:hover {
   background-color: #252d4a;
   color: rgb(240, 215, 33);
@@ -113,8 +86,4 @@ button:hover {
 
 button:focus {
   outline: none;
-}
-
-button svg {
-  margin-right: 5px;
 }
