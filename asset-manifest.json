@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BVG-App/static/css/main.09304d8e.chunk.css",
+    "main.js": "/BVG-App/static/js/main.52bbd6c6.chunk.js",
+    "main.js.map": "/BVG-App/static/js/main.52bbd6c6.chunk.js.map",
+    "runtime-main.js": "/BVG-App/static/js/runtime-main.2f75aec6.js",
+    "runtime-main.js.map": "/BVG-App/static/js/runtime-main.2f75aec6.js.map",
+    "static/js/2.2ae69630.chunk.js": "/BVG-App/static/js/2.2ae69630.chunk.js",
+    "static/js/2.2ae69630.chunk.js.map": "/BVG-App/static/js/2.2ae69630.chunk.js.map",
+    "static/js/3.ad071436.chunk.js": "/BVG-App/static/js/3.ad071436.chunk.js",
+    "static/js/3.ad071436.chunk.js.map": "/BVG-App/static/js/3.ad071436.chunk.js.map",
+    "index.html": "/BVG-App/index.html",
+    "static/css/main.09304d8e.chunk.css.map": "/BVG-App/static/css/main.09304d8e.chunk.css.map",
+    "static/js/2.2ae69630.chunk.js.LICENSE.txt": "/BVG-App/static/js/2.2ae69630.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/BVG-App/static/media/bvg.ff652734.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f75aec6.js",
+    "static/js/2.2ae69630.chunk.js",
+    "static/css/main.09304d8e.chunk.css",
+    "static/js/main.52bbd6c6.chunk.js"
+  ]
+}
