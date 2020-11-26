@@ -12,17 +12,17 @@ const questions = [
       {
         answerText: "Less than 20 Minutes",
         result:
-          "will cost 1,90 € , for more info check this link  https://www.bvg.de/de/Tickets/Preise",
+          "will cost 1,90 € for 20 minutes, more info check this link  https://www.bvg.de/de/Tickets/Preise",
       },
       {
         answerText: "More than 20 Minutes till 2 hours",
         result:
-          "will cost 2,90 €, for more info check this link https://www.bvg.de/de/Tickets/Preise",
+          "will cost 2,90 € for 2 hours, more info check this link https://www.bvg.de/de/Tickets/Preise",
       },
       {
         answerText: "All the day long",
         result:
-          "will cost 8,60 €, for more info check this link https://www.bvg.de/de/Tickets/Preise",
+          "will cost 8,60 € for 24 hours, more info check this link https://www.bvg.de/de/Tickets/Preise",
       },
     ],
   },
@@ -32,12 +32,12 @@ const questions = [
       {
         answerText: "Less than 1 week ",
         result:
-          "will cost 34,00 €, for more info check this link https://www.bvg.de/de/Tickets/Preise",
+          "will cost 34,00 €  for 7 days, more info check this link https://www.bvg.de/de/Tickets/Preise",
       },
       {
         answerText: "longer than 1 week ",
         result:
-          "will cost 84,00 €, for more info check this link https://www.bvg.de/de/Tickets/Preise",
+          "will cost 84,00 € for 1 month, more info check this link https://www.bvg.de/de/Tickets/Preise",
       },
     ],
   },
