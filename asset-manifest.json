@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BVG-App/static/css/main.f6964bda.chunk.css",
-    "main.js": "/BVG-App/static/js/main.0d55a7c8.chunk.js",
-    "main.js.map": "/BVG-App/static/js/main.0d55a7c8.chunk.js.map",
+    "main.js": "/BVG-App/static/js/main.1a2f721a.chunk.js",
+    "main.js.map": "/BVG-App/static/js/main.1a2f721a.chunk.js.map",
     "runtime-main.js": "/BVG-App/static/js/runtime-main.2f75aec6.js",
     "runtime-main.js.map": "/BVG-App/static/js/runtime-main.2f75aec6.js.map",
     "static/js/2.2ae69630.chunk.js": "/BVG-App/static/js/2.2ae69630.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.2f75aec6.js",
     "static/js/2.2ae69630.chunk.js",
     "static/css/main.f6964bda.chunk.css",
-    "static/js/main.0d55a7c8.chunk.js"
+    "static/js/main.1a2f721a.chunk.js"
   ]
 }
