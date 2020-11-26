@@ -11,17 +11,13 @@ function Homepage() {
     setUsename(prompt("please enter your name"));
   }, []);
 
-  const handleAnswerOptionClick = (isCorrect) => {
-    if (isCorrect) {
-      setTicket(isCorrect);
-    }
-
-    const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion);
-    } else {
+  const handleAnswerOptionClick = answer => {
+    if (answer.result) {
+      setTicket(answer.result);
       setShowTicket(true);
+      return;
     }
+    setCurrentQuestion(answer.nextId);
   };
 
   return (
@@ -40,19 +36,11 @@ function Homepage() {
               <div className="question-count">
                 <span>Question {currentQuestion + 1}</span>
               </div>
-              <div className="question-text">
-                {questions[currentQuestion].questionText}
-              </div>
+              <div className="question-text">{questions[currentQuestion].questionText}</div>
             </div>
             <div className="answer-section">
-              {questions[currentQuestion].answerOptions.map((answerOption) => (
-                <button
-                  onClick={() =>
-                    handleAnswerOptionClick(answerOption.isCorrect)
-                  }
-                >
-                  {answerOption.answerText}
-                </button>
+              {questions[currentQuestion].answerOptions.map(answerOption => (
+                <button onClick={() => handleAnswerOptionClick(answerOption)}>{answerOption.answerText}</button>
               ))}
             </div>
           </>
@@ -63,3 +51,4 @@ function Homepage() {
 }
 
 export default Homepage;
+

@@ -32,7 +32,6 @@ h2 {
 
 .app {
   background-color: rgb(240, 215, 33);
-  min-height: 200px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
