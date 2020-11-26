@@ -29,7 +29,7 @@ function Homepage() {
       </div>
       <div className="app">
         {showTicket ? (
-          <div className="ticket-section">You ticket {ticket}</div>
+          <div className="ticket-section">Your ticket {ticket}</div>
         ) : (
           <>
             <div className="question-section">
